@@ -24,10 +24,5 @@
     "autoload": {
         "psr-0": { "Nelmio\\CorsBundle": "" }
     },
-    "target-dir": "Nelmio/CorsBundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.3.x-dev"
-        }
-    }
+    "target-dir": "Nelmio/CorsBundle"
 }

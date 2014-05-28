@@ -75,9 +75,6 @@ class CorsListener
         }
 
         if (!$this->checkOrigin($request, $options)) {
-            $response = new Response('', 403, array('Access-Control-Allow-Origin' => 'null'));
-            $event->setResponse($response);
-
             return;
         }
 
